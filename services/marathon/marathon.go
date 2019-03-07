@@ -169,8 +169,7 @@ type readinessCheckResult struct {
 	Ready  bool   `json:"ready"`
 }
 
-/*
-	Apps returns a struct that describes Marathon current app and their
+/* FetchApps: Apps returns a struct that describes Marathon current app and their
 	sub tasks information.
 
 	Parameters:

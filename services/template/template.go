@@ -18,8 +18,7 @@ func getService(data map[string]service.Service, appId string) service.Service {
 	return serviceModel
 }
 
-/*
-	Returns string content of a rendered template
+/* RenderTemplate returns string content of a rendered template
 */
 func RenderTemplate(templateName string, templateContent string, data interface{}) (string, error) {
 	funcMap := template.FuncMap{

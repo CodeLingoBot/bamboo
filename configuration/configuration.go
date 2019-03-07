@@ -27,8 +27,7 @@ type Configuration struct {
 	StatsD StatsD
 }
 
-/*
-	Returns Configuration struct from a given file path
+/* FromFile returns Configuration struct from a given file path
 
 	Parameters:
 		filePath: full file path to the JSON configuration
